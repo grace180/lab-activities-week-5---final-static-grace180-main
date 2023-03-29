@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Circle Test",
+      "setup": "",
+      "run": "gradle test --tests TestCircle",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Test Product Tax Service",
+      "setup": "",
+      "run": "gradle test --tests TestProductTaxService",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
